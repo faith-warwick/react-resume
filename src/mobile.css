@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+    .aboutme {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 16px;
+        overflow-y:hidden;
+        color: white;
+        background: url("./images/cousins.jpg") no-repeat center fixed;
+        background-size: auto 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .headcard {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 16px;
+        width: 100%;
+        height: 100vh;
+        min-height: fit-content;
+        overflow-y:hidden;
+        background: url("./images/bruja.jpg")no-repeat center fixed;
+        background-size: 100% 100%;
+        -webkit-filter: contrast(80%);
+    }
+
+}
+
+@media (max-width: 600px) {
+    .workimg  {
+        display:none;
+    }
+}
+
+@media (max-width: 600px) {
+    .name {
+        font-size: 310%;
+        text-align: center;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .IDs {
+        font-size: 200%;
+        align-self: center;
+        padding: 16px;
+        color: white;
+    }
+}
+@media (max-width: 600px) {
+    .huge {
+        font-size: 200%;
+        align-self: center;
+        color: white;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .pball, .suall, .nordall, .project1, .project2, .phillyall, .suDeets {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        width:100%;
+    }
+}

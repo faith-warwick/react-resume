@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import sky from './images/seasky.jpg';
-import su from './images/SU.jpg';
+import su from './images/Sea-Edu.png';
 
 
 class Education extends Component {
@@ -10,7 +9,7 @@ class Education extends Component {
         return (
             <section>
                 <div className="sky">
-                    <p className="huge"> LHR -> HNL -> SEA -> SLC
+                    <p className="huge"> LHR <i className="fa fa-suitcase" /> HNL <i className="fa fa-plane"/> SEA <i className="fa fa-suitcase"/> SLC
                     </p>
                 </div>
             <div className="Edu">

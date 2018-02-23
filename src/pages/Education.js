@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
-import su from './images/Sea-Edu.png';
+import '../App.css';
+import su from '../images/Sea-Edu.png';
 
 
 class Education extends Component {

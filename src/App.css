@@ -10,9 +10,18 @@ body  {
 a{font-family:inherit;
   color: inherit;}
 
+nav{
+    display:flex;
+    justify-content:flex-end;
+    padding: 0px 30px 30px 0px;
+}
+Link{
+    padding: 0px 16px 16px 0px;
+}
+
 .headcard {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   padding: 16px;
   width: 100%;
@@ -136,7 +145,7 @@ a{font-family:inherit;
 
 
 .IDs{
-    padding: 16px;
+    padding: 0px 16px 16px 16px;
   color: white;
   font-size: 312.5%;
 }

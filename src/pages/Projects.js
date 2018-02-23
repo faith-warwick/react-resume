@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
-import './App.css';
-import Helio from './images/Helio.jpg';
+import '../App.css';
+import Helio from '../images/Helio.jpg';
 
 
 

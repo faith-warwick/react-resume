@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import './App.css';
-import pb from './images/PB.jpeg';
-import su from './images/SU.jpg';
-import nord from './images/nordies.png';
-import philly from './images/Philadelphia Insurance Companies.png';
+import '../App.css';
+import pb from '../images/PB.jpeg';
+import su from '../images/SU.jpg';
+import nord from '../images/nordies.png';
+import philly from '../images/Philadelphia Insurance Companies.png';
 
 class WorkEx extends Component {
 

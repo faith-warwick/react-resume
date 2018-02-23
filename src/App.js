@@ -1,26 +1,53 @@
-import React, { Component } from 'react';
-import IntroSite from './IntroSite';
-import './App.css';
-import AboutMe from './AboutMe';
-import WorkEx from './WorkEx';
-import Projects from './Projects';
+// import React, { Component } from 'react';
+// import IntroSite from './pages/IntroSite';
+// import './App.css';
+// import AboutMe from './pages/AboutMe';
+// import WorkEx from './pages/WorkEx';
+// import Projects from './pages/Projects';
+// import './mobile.css';
+// import Education from './pages/Education';
+//
+//
+// class App extends Component {
+//   render() {
+//     return (
+//         <div>
+//         <IntroSite/>
+//         <WorkEx/>
+//         <AboutMe/>
+//         <Projects/>
+//         <Education/>
+//         </div>
+//
+//   );
+//   }
+// }
+
+
+import React from 'react';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
 import './mobile.css';
-import Education from './Education';
+import './App.css';
 
 
-class App extends Component {
-  render() {
-    return (
+import IntroSite from "./pages/IntroSite";
+import WorkEx from "./pages/WorkEx";
+import Projects from "./pages/Projects";
+
+
+const App = () => (
+    <Router>
         <div>
-        <IntroSite/>
-        <WorkEx/>
-        <AboutMe/>
-        <Projects/>
-        <Education/>
+            <Route exact path="/" component={IntroSite}/>
+            <Route path="/resume" component={WorkEx}/>
+            <Route path="/projects" component={Projects}/>
         </div>
+    </Router>
+)
 
-  );
-  }
-}
 
 export default App;

@@ -8,8 +8,11 @@ import '../App.css';
 import '../mobile.css';
 import './Projects';
 import './AboutMe';
-import Projects from "./Projects";
+import ProjectsShort from "./Projects";
 import AboutMe from "./AboutMe";
+import WorkEx from './WorkEx';
+import Education from './Education';
+import Navigation from './Nav';
 
 
 class IntroSite extends Component {
@@ -29,15 +32,12 @@ class IntroSite extends Component {
                         <a href="mailto:warwick.faith@gmail.com"><i className="fa fa-envelope" /></a>
                     </div>
                 </div>
-                <nav>
-                    <Link to="/resume">Resume</Link> &emsp; - &emsp;
-                    <Link to="/education">Education</Link>
-                </nav>
+                <Navigation/>
             </div>
-            < Projects/>
-            < AboutMe/>
-            </body>
+            <ProjectsShort/>
+            <AboutMe/>
 
+            </body>
         )
 
 

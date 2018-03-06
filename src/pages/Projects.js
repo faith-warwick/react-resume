@@ -5,7 +5,7 @@ import Helio from '../images/Helio.jpg';
 
 
 
-class Projects extends Component {
+class ProjectsShort extends Component {
 
     render() {
         return (
@@ -30,4 +30,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects;
+export default ProjectsShort;

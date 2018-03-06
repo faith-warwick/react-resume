@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../mobile.css';
 import pb from '../images/PB.jpeg';
 import su from '../images/SU.jpg';
 import nord from '../images/nordies.png';
 import philly from '../images/Philadelphia Insurance Companies.png';
+import Education from "./Education";
 
 class WorkEx extends Component {
 
@@ -67,7 +69,9 @@ class WorkEx extends Component {
                     </div>
 
                 </div>
+                <Education/>
             </div>
+
         );
     }
 }

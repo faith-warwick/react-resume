@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../mobile.css';
 import su from '../images/Sea-Edu.png';
 
 
@@ -22,7 +23,7 @@ class Education extends Component {
                         <div className="SUedu">
                             <p className="bigish">Seattle Univeristy</p>
                             <p className="medium">BA of Business Administration, Business Economics (09/11 - 06/15)</p>
-                            <p className="small">Minor: Finance </p>
+                            <p className="small">Minor: Finance &emsp; Coursework: Econometrics, Forecasting </p>
                             </div>
                     </div></div></div></section>
 

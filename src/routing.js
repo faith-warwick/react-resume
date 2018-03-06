@@ -11,6 +11,7 @@ import './App.css';
 import IntroSite from "./pages/IntroSite";
 import WorkEx from "./pages/WorkEx";
 import Projects from "./pages/Projects";
+import Education from "./pages/Education";
 
 
 const LandingPage = () => (
@@ -19,6 +20,7 @@ const LandingPage = () => (
             <Route exact path="/" component={IntroSite}/>
             <Route path="/resume" component={WorkEx}/>
             <Route path="/projects" component={Projects}/>
+            <Route path="/education" component={Education}/>
         </div>
     </Router>
 )

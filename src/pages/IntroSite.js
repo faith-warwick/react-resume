@@ -21,8 +21,8 @@ class IntroSite extends Component {
                     </div>
                         <Navigation />
                     <div className="IDs">
-                        <a href="https://github.com/faith-warwick" target="_blank" rel="noopener"><i className="fa fa-github-square" /></a>
-                        <a href="https://www.linkedin.com/in/faithwarwick/" target="_blank" rel="noopener"><i className="fa fa-linkedin-square" /></a>
+                        <a href="https://github.com/faith-warwick" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square" /></a>
+                        <a href="https://www.linkedin.com/in/faithwarwick/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" /></a>
                         {/*<a href="https://codepen.io/warwifg/" target="_blank" rel="noopener"><i className="fa fa-codepen" /></a>*/}
                         <a href="mailto:warwick.faith@gmail.com"><i className="fa fa-envelope" /></a>
                     </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import {
     BrowserRouter as Router,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
 import './mobile.css';
 import './App.css';
@@ -24,7 +23,7 @@ const App = () => (
             <Route path="/Resume" component={WorkEx}/>
             <Route path="/Projects" component={Projects}/>
             <Route path="/education" component={Education}/>
-            <Route path="/AboutMe" component={AboutMe}/>
+            {/* <Route path="/AboutMe" component={AboutMe}/> */}
             <Route component={NotFound} />
         </switch>
     </Router>

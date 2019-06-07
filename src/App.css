@@ -19,10 +19,11 @@ Link{
     padding: 0px 16px 16px 0px;
 }
 
+
 .headcard {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 16px;
   width: 100%;
   height: 100vh;
@@ -30,7 +31,7 @@ Link{
   overflow-y:hidden;
   background: url("./images/bruja.jpg")no-repeat center fixed;
     background-size: cover;
-    -webkit-filter: contrast(80%);
+    -webkit-filter: contrast(60%);
 }
 
 
@@ -38,9 +39,9 @@ Link{
 .work {
   display: flex;
   flex-direction: column;
-  padding: 16px;
+  /*padding: 16px;*/
   background-size: cover;
-    background-color: #D7CCC8;
+    /*background-color: #D7CCC8;*/
   text-align: right;
   color: black;
     overflow-y:hidden;
@@ -51,7 +52,7 @@ Link{
   padding: 16px;
   overflow-y:hidden;
   background-size: cover;
-  background-color: #D7CCC8;
+  /*background-color: #D7CCC8;*/
   text-align: right;
   color: black;
 }
@@ -61,7 +62,7 @@ Link{
     padding: 16px;
     overflow-y:hidden;
     background-size: cover;
-    background-color: #D7CCC8;
+    /*background-color: #D7CCC8;*/
     text-align: right;
     color: black;
 }
@@ -71,7 +72,6 @@ Link{
   display: flex;
   flex-direction: row;
     justify-content: center;
-    padding: 16px;
   overflow-y:hidden;
     color: white;
     background: url("./images/cousins.jpg") no-repeat center fixed;
@@ -127,12 +127,14 @@ Link{
 }
 .fade img {
     opacity: 1.0;
-    filter: alpha(opacity=100)
+    filter: alpha(opacity=100);
 }
 .fade img:hover {
     opacity: .5;
     filter: alpha(opacity=50)
 }
+
+
 
 
 /*section formats*/
@@ -162,7 +164,7 @@ i {
 .workex, .eduDeets {
   display:flex;
   flex-direction: column;
-  padding:16px;
+  padding:16px 60px 0px 60px;
 }
 .ProjectEx {
     display: flex;
@@ -202,5 +204,35 @@ i {
     align-items:center;
 }
 
+.Navi {
+    background: url("./images/bruja.jpg")no-repeat fixed;
+    background-size: cover;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 16px 40px 16px 40px;
+    -webkit-filter: contrast(60%);
+    position: sticky;
+    top: 0px;
+}
+
+.homelink {
+    display: flex;
+    align-self: left;
+    justify-self: left;
+}
+
+.otherlinks {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profabout {
+    color: black;
+    height: 40vh;
+}
 
 

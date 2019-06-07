@@ -1,27 +1,3 @@
-// import React, { Component } from 'react';
-// import IntroSite from './pages/IntroSite';
-// import './App.css';
-// import AboutMe from './pages/AboutMe';
-// import WorkEx from './pages/WorkEx';
-// import Projects from './pages/Projects';
-// import './mobile.css';
-// import Education from './pages/Education';
-//
-//
-// class App extends Component {
-//   render() {
-//     return (
-//         <div>
-//         <IntroSite/>
-//         <WorkEx/>
-//         <AboutMe/>
-//         <Projects/>
-//         <Education/>
-//         </div>
-//
-//   );
-//   }
-// }
 import React from 'react';
 import {
     BrowserRouter as Router,
@@ -34,23 +10,25 @@ import './App.css';
 
 import IntroSite from "./pages/IntroSite";
 import WorkEx from "./pages/WorkEx";
-import Projects from "./pages/Projects";
+import Projects from "./pages/ProjectsLong";
 import Education from "./pages/Education";
 import AboutMe from './pages/AboutMe';
+import NotFound from './pages/NotFound'
 
 
 
 const App = () => (
     <Router>
-        <div>
+        <switch>
             <Route exact path="/" component={IntroSite}/>
             <Route path="/Resume" component={WorkEx}/>
             <Route path="/Projects" component={Projects}/>
             <Route path="/education" component={Education}/>
             <Route path="/AboutMe" component={AboutMe}/>
-        </div>
+            <Route component={NotFound} />
+        </switch>
     </Router>
-)
+);
 
 
 

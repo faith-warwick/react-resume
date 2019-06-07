@@ -6,12 +6,14 @@ import su from '../images/SU.jpg';
 import nord from '../images/nordies.png';
 import philly from '../images/Philadelphia Insurance Companies.png';
 import Education from "./Education";
+import NaviMini from './miniNav';
 
 class WorkEx extends Component {
 
     render() {
         return (
-
+    <div>
+        <NaviMini />
             <div className="work">
                 <p className="big">Work Experience</p>
                 <div className="workex">
@@ -71,9 +73,10 @@ class WorkEx extends Component {
                 </div>
                 <Education/>
             </div>
-
+    </div>
         );
     }
 }
 
 export default WorkEx;
+

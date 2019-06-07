@@ -14,7 +14,8 @@ class ProjectsShort extends Component {
     <div className="ProjectEx">
     <div className="project1">
         <div>
-            <a href="#" className="fade"><img className="projimg" src={Helio} alt="Project 1"/></a>
+            <a href="#" className="fade"><img className="projimg" src={Helio} alt="Project 1"/>
+            </a>
         </div>
         </div>
     <div className="project2">
@@ -22,8 +23,12 @@ class ProjectsShort extends Component {
             <a href="#" className="fade"><img className="projimg" src={Helio} alt="Project 1"/></a>
         </div>
     </div>
+        <div className="project2">
+            <div>
+                <a href="#" className="fade"><img className="projimg" src={Helio} alt="Project 1"/></a>
+            </div>
+        </div>
     </div>
-
 </div>
 
     );

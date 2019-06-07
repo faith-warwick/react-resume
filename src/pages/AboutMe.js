@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
+import NaviMini from './miniNav';
 
 
 class AboutMe extends Component {
@@ -8,7 +9,6 @@ class AboutMe extends Component {
     render() {
         return (
             <section>
-            <div className="backimg"></div>
             <div className="aboutme">
                 <div  className="ramble">
                     <p className="big1">Hello, here's me,</p>
@@ -27,7 +27,8 @@ class AboutMe extends Component {
                         <p className="small">Memes, Yoga, Doggos, & Sushi</p>
                         </div>
                 </div>
-            </div> </section>
+            </div>
+            </section>
 
         );
     }

@@ -16,6 +16,7 @@ class Navigation extends Component {
             <Nav>
                 <Link to='/Projects'>Projects</Link> &emsp;
                 <Link to='/Resume'>Resume</Link>
+                {/*<Link to='/AboutMe'>About</Link>*/}
             </Nav>
         )
     }

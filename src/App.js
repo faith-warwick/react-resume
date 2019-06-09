@@ -11,7 +11,7 @@ import IntroSite from "./pages/IntroSite";
 import WorkEx from "./pages/WorkEx";
 import Projects from "./pages/ProjectsLong";
 import Education from "./pages/Education";
-import AboutMe from './pages/AboutMe';
+// import AboutMe from './pages/AboutMe';
 import NotFound from './pages/NotFound'
 
 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
-import NaviMini from './miniNav';
+// import NaviMini from './miniNav';
 
 
 class AboutMe extends Component {
